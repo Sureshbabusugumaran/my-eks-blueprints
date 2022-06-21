@@ -1,0 +1,1 @@
+aws secretsmanager create-secret --name "github-token2" --description "github access token" --secret-string "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" --add-replica-regions "Region=us-east-1" "Region=us-east-2" 

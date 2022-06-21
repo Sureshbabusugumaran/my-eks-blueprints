@@ -18,10 +18,10 @@ export default class PipelineConstruct extends Construct {
   
     blueprints.CodePipelineStack.builder()
       .name("eks-blueprints-workshop-pipeline")
-      .owner("your-github-username")
+      .owner("sureshbabusugumaran")
       .repository({
-          repoUrl: 'your-repo-name',
-          credentialsSecretName: 'github-token',
+          repoUrl: 'my-eks-blueprints',
+          credentialsSecretName: 'github-token2',
           targetRevision: 'main'
       })
       // WE ADD THE STAGES IN WAVE FROM THE PREVIOUS CODE
